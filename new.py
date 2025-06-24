@@ -20,3 +20,6 @@ print("Extracted words:")
 for word in words_sorted:
     print(word)
 
+with open('data.txt', 'w') as file:
+    for word in words:
+        file.write(word + '\n')
