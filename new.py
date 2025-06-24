@@ -24,4 +24,4 @@ with open('data.txt', 'w') as file:
     for word in words:
         file.write(word + '\n')
 
-print("Hello world")
+print("Hello World")
